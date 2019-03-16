@@ -72,9 +72,11 @@ p {
 }
 
 .container {
-        width: 960px;
+        
         margin: 0 auto;
         background-image: url("../images/dynamic-style.png");
+        float: center;
+
 
 }
 
@@ -126,28 +128,54 @@ input[type=submit], select {
 
 }
 
- #footer {
-        position: fixed;
-        width: 100%;
-        background: red;
-        left: 0px;
-        bottom: 0px;
-        height: 30px;
-
-     
- }
- .flex-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly
-        
-      }
+ footer {
       
-      .flex-container > div {
-        background-color: #4aaaa5;
-        width: 100px;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-        font-size: 30px;
+        height: 30px;
+        padding-top 10px;
+        border-top: solid;
+        background-color: #777777;
+
+}
+
+ .box-red {         
+        background: red;
+        height: 100px;
+        width: 100px; 
+        position: relative;
+        top: 100px;
+        left: 100px; 
+        justify-content: space-evenly
+      }
+      .box-green {
+        background: green;
+        height: 100px;
+        width: 100px; 
+        position: static; 
+        justify-content: space-evenly
+      }
+
+      .box-yellow {         
+        background: yellow;
+        height: 100px;
+        width: 100px; 
+        position: relative;
+        top: 100px;
+        left: 100px; 
+        justify-content: space-evenly
+      }
+      .box-blue {
+        background: blue;
+        height: 100px;
+        width: 100px; 
+        position: static; 
+        justify-content: space-evenly
+      }
+      .box-purple {
+        background: purple;
+        height: 100px;
+        width: 100px; 
+        position: static;
+        top: 100px;
+        left: 100px; 
+        justify-content: space-evenly
       }
