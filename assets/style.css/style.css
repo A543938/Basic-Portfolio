@@ -62,7 +62,7 @@ img {
 
 p {
         
-        font-size: 15px;
+        font-size: 16px;
         font-weight: normal;
         text-align: center;
         margin: 0 auto;
@@ -107,12 +107,13 @@ a {
         float: right;
         font-style: bold;
         
-
+ 
 
 
 
         
 }
+
 input[type=text], select, textarea {
         padding: 10px;
         box-sizing: border-box;
@@ -133,9 +134,9 @@ input[type=submit], select {
  footer {
       
         height: 30px;
-        padding-top 10px;
         border-top: solid;
         background-color: #777777;
+        border-top: 8px solid #4aaaa5;
 
 }
 
