@@ -22,7 +22,7 @@ h1 {
         margin: 0px;
         padding: 5px;
         position: fixed;
-        left: 40px;
+        justify-content: center
        
         
       
@@ -100,11 +100,13 @@ form {
 
 }
 a {     
-        font-size: 15px;
+        font-size: 20px;
         color: #777777;
         text-align: inherit;
         margin: 0 auto;
         float: right;
+        font-style: bold;
+        
 
 
 
@@ -144,14 +146,16 @@ input[type=submit], select {
         position: relative;
         top: 100px;
         left: 100px; 
-        justify-content: space-evenly
+        justify-content: space-evenly;
+  
       }
       .box-green {
         background: green;
         height: 100px;
         width: 100px; 
         position: static; 
-        justify-content: space-evenly
+        justify-content: space-evenly;
+      
       }
 
       .box-yellow {         
@@ -161,14 +165,16 @@ input[type=submit], select {
         position: relative;
         top: 100px;
         left: 100px; 
-        justify-content: space-evenly
+        justify-content: space-evenly;
+        
       }
       .box-blue {
         background: blue;
         height: 100px;
         width: 100px; 
         position: static; 
-        justify-content: space-evenly
+        justify-content: space-evenly;
+       
       }
       .box-purple {
         background: purple;
@@ -177,5 +183,6 @@ input[type=submit], select {
         position: static;
         top: 100px;
         left: 100px; 
-        justify-content: space-evenly
+        justify-content: space-evenly;
+        
       }
