@@ -1,0 +1,38 @@
+.jumbotron {
+    background-color:#4aaaa5;
+    box-sizing: border-box;
+    font: 15px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/dynamic-style.png");
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+
+}
+
+img {
+    float: left;
+    padding: 0% auto;
+}
+
+footer {
+      
+    height: 30px;
+    border-top: solid;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    position: sticky;
+
+}
+
+button {
+    background-color: orange;
+    color: white;
+
+}
